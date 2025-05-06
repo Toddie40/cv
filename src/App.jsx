@@ -11,7 +11,7 @@ const AppContent = () => {
   const projects = useProjects(); // Access projects from context
 
   return (
-    <Router>
+    <Router basename="/cv/"> {/* Set the base path */}
       <div className="font-sans leading-relaxed pt-16">
         <Navbar />
         <Routes>
