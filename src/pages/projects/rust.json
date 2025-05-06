@@ -1,0 +1,6 @@
+{
+    "route": "Rust",
+    "title": "Rust Detection and Classification",
+    "description": "This project focused on developing a cloud-based API for automatically detecting and classifying corrosion in ship survey images. The system leverages advanced machine learning techniques to provide accurate and efficient results, helping engineers make informed decisions.",
+    "details": []
+  }

@@ -1,0 +1,6 @@
+{
+    "route": "Rembrandt",
+    "title": "Rembrand Chatbot",
+    "description": "This project involved creating an LLM-based chatbot designed to operate on local machines. The chatbot assists users of Rembrant in troubleshooting their problems when at sea without access to a helpdesk. It was integrated with a custom web-based navigable user manual to provide an augmented user experience.",
+    "details": []
+  }

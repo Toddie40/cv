@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+/* style.css */
+:root {
+  --color-bg: #f9fafb;         /* Background */
+  --color-fg: #1f2937;         /* Foreground */
+  --color-highlight: #ececec;  /* Blue-500 */
+  --color-alt: #230b7a;        /* Light gray */
+  --color-muted: #6b7280;      /* Optional - subtle text */
+  --color-link: #004149;       /* External Links */
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header, nav, footer {
+  background-color: white;
+  color: var(--color-fg);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  position: fixed; /* Fix the navbar to the top of the screen */
+  top: 0; /* Align it to the top */
+  left: 0; /* Align it to the left */
+  width: 100%; /* Make it span the full width of the screen */
+  z-index: 10; /* Ensure it stays above other elements */
+}
+
+h1, h2, h3, h4 {
+  color: var(--color-fg);
+}
+
+h2 {
+  @apply text-2xl font-semibold border-b pb-2 mb-4;
+}
+
+h3 {
+  @apply text-lg font-semibold pt-2;
+}
+
+h4 {
+  @apply pt-2;
+}
+
+.subtitle {
+  @apply text-sm;
+  color: var(--color-muted)
+}
