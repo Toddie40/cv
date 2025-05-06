@@ -1,4 +1,4 @@
-# React + Vite
+# Online CV
 
 Welcome to the GitHub repo for my interactive online CV
 
