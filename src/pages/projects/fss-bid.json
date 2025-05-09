@@ -1,0 +1,24 @@
+{
+    "route": "FSS-bid",
+    "title": "Fleet Solid Support Bid",
+    "one_line_description": "Worked on the BMT bid for the fleet solid support programme",
+    "image": "src/assets/img/fss_bid.webp",
+    "details": [
+      "This was a key project for BMT to win. Following on the the company's experience with vessels such as Tide Class and the Norwegian Logistics Support Vessel.",
+      "I was given a lot of responsibility for doing calculation work on key ship systems. This involved things like calculating pressure loss and pipework velocity as well as producing piping and instrumentation drawings and design documentation.",
+      "Eadch document I produced was subject to a strict QA procedure and the design work was performed to Lloyds naval ship rules"
+    ],
+    "responsibilities_preamble" : "I was responsible for the designing, documentation and failure analysis of the following key ship's systems:",
+    "responsibilities": [
+      "High Pressure Sea Water (Ship wide distribution of sea water for fire fighting.",
+      "Chilled Water (Ship wide distribution of chilled water for weapons systems and air conditioning",
+      "Pre-wetting (External ship spray system for Chemical, Biological, Nuclear and Radioactive threats)"
+    ],
+    "skills": [
+      "Time Management",
+      "Engineering Drawings/ P&IDs",
+      "Fluid System Calculations",
+      "Cross-Discipline Communication"
+    ]
+    
+  }

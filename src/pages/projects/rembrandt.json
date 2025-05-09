@@ -1,6 +1,28 @@
 {
     "route": "Rembrandt",
-    "title": "Rembrand Chatbot",
-    "description": "This project involved creating an LLM-based chatbot designed to operate on local machines. The chatbot assists users of Rembrant in troubleshooting their problems when at sea without access to a helpdesk. It was integrated with a custom web-based navigable user manual to provide an augmented user experience.",
-    "details": []
+    "title": "Rembrand Chatbot - VERMEER",
+    "one_line_description": "This project involved creating an LLM-based chatbot designed to operate on local machines. The chatbot assists users of Rembrant in troubleshooting their problems when at sea without access to a helpdesk. It was integrated with a custom web-based navigable user manual to provide an augmented user experience.",
+    "details": [
+      "VERMEER is a custom chatbot designed by myself and a couple of others at BMT to help our customers troubleshoot Rembrandt when at sea with limited Communication.",
+      "I implemented a custom Retrieval-Augmented Generation (RAG) pipeline and a locally hosted language model, in order to meet the stringent needs of both high quality responses, with no internet access and limited GPU memory.",
+      "I built a containerised environment hosting both an Ollama container to function as a backend to the app and an AnythingLLM server to work as the front end.",
+      "I had to patch the AnythingLLM repository to allow for the text splitting to use custom separators which allowed me to tailor the RAG embedding process to better suit our needs.",
+      "I also built an interactive web version of the Rembrandt Training Manual to demonstrate and deploy our chatbot onto, which the internal customer was especially pleased with."
+    ],
+    "responsibilities_preamble": "VERMEER was a research project so I had a lot of autonomy and responsibility. Specifically I was responsible for:",
+    "responsibilities": [
+      "Text-splitting and Chunk embedding pipeline",
+      "Language Model Selection and deployment",
+      "Software Architecture"
+    ],
+    "skills": [
+      "Python",
+      "ReactJS",
+      "Large Language Models",
+      "RAG",
+      "Text Splitting",
+      "Local LLMs",
+      "Docker",
+      "git"
+    ]
   }

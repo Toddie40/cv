@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useProjects } from '../context/ProjectsProvider';
 
 const Experience = ({ title, date, projects }) => {
@@ -19,8 +20,11 @@ const Experience = ({ title, date, projects }) => {
           <ul className="pl-4">
             {matchedProjects.map((project, index) => (
               <li key={index}>
-                <a href={"/projects/"+project.route} className="font-bold">{project.title}</a>
-                <p className="text-base">{project.description}</p>
+                <Link
+                to={`/projects/${project.route}`}
+                className="py-4 font-bold"
+                >{project.title}</Link>              
+                <p className="text-base">{project.one_line_description}</p>
               </li>
             ))}
           </ul>

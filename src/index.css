@@ -38,10 +38,6 @@ nav {
   z-index: 10; /* Ensure it stays above other elements */
 }
 
-h1, h2, h3, h4 {
-  color: var(--color-fg);
-}
-
 h2 {
   @apply text-2xl font-semibold border-b pb-2 mb-4;
 }
@@ -57,4 +53,13 @@ h4 {
 .subtitle {
   @apply text-sm;
   color: var(--color-muted)
+}
+
+.pill {
+  @apply inline-block rounded-full border flex items-center justify-center text-center;
+  border-color: var(--color-fg);
+}
+
+.pill-dark {
+  border-color: var(--color-bg);
 }

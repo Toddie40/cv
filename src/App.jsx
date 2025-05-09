@@ -21,7 +21,7 @@ const AppContent = () => {
             <Route
               key={project.route}
               path={`/projects/${project.route}`}
-              element={<Project {...project} />}
+              element={<Project project={project} />}
             />
           ))}
         </Routes>

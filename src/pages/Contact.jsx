@@ -9,19 +9,19 @@ const Contact = () => (
     <div className="flex justify-center space-x-4">
       <button
         onClick={() => window.location.href = 'mailto:Alex.todd40@gmail.com'}
-        className="bg-[var(--color-link)] text-white py-2 px-4 rounded hover:bg-[var(--color-highlight)] transition cursor-pointer"
+        className="bg-[var(--color-fg)] text-white py-2 px-4 rounded hover:bg-[var(--color-highlight)] transition cursor-pointer"
       >
         Email
       </button>
       <button
         onClick={() => window.open('https://www.linkedin.com/in/alextoddbristol/', '_blank')}
-        className="bg-[var(--color-link)] text-white py-2 px-4 rounded hover:bg-[var(--color-highlight)] transition cursor-pointer"
+        className="bg-[var(--color-fg)] text-white py-2 px-4 rounded hover:bg-[var(--color-highlight)] transition cursor-pointer"
       >
         LinkedIn
       </button>
       <button
         onClick={() => window.open('https://github.com/Toddie40', '_blank')}
-        className="bg-[var(--color-link)] text-white py-2 px-4 rounded hover:bg-[var(--color-highlight)] transition cursor-pointer"
+        className="bg-[var(--color-fg)] text-white py-2 px-4 rounded hover:bg-[var(--color-highlight)] transition cursor-pointer"
       >
         GitHub
       </button>
