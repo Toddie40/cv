@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Project = ({ project }) => (
   <div className="w-full bg-cover bg-center"
-      style={{ backgroundImage: `url(${import.meta.env.BASE_URL + project.image})` }}
+      style={{ backgroundImage: `url(${'./../'+project.image})` }}
   >
       {/* Semi-transparent overlay */}
   <div className="absolute inset-0 bg-white/80"></div>
