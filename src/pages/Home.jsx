@@ -1,5 +1,7 @@
 import React from 'react';
 import Experience from '../components/Experience';
+import AboutMe from '../components/Aboutme';
+
 
 // Dynamically import all experience JSON files
 const experienceFiles = import.meta.glob('./experience/*.json', { eager: true });
@@ -8,20 +10,12 @@ const experienceFiles = import.meta.glob('./experience/*.json', { eager: true })
 const experiences = Object.values(experienceFiles).map((module) => module.default);
 
 const Home = () => (
-  <main className="max-w-4xl mx-auto px-4 py-8 space-y-12">
-    <section>
-      <h2>About Me</h2>
-      <p>
-        Hi, I'm Alex. I'm a Machine Learning and AI Specialist working at BMT. My background is in
-        Mechanical Engineering, but recently I have pivoted to leveraging modern machine learning
-        and artificial intelligence techniques to solving engineering problems. I sit at the
-        interface between the real and the digital and excel at bringing machine learning techniques
-        into the <b>real world.</b>
-      </p>
-    </section>
+  <main className="max-w-4xl mx-auto py-8 space-y-8">
+    
+    <AboutMe />
 
     {/* Dynamically render Experience components */}
-    <section>
+    <section className='experience p-4'>
     <h2>Experience</h2>
     {experiences.map((experience, index) => (
       <Experience
