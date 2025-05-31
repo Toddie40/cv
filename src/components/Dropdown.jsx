@@ -33,7 +33,7 @@ const Dropdown = ({ label, items }) => {
 
   return (
     <div
-      className="relative"
+      className="dropdown_menu"
       ref={dropdownRef}
       onMouseEnter={openDropdown} // Open dropdown on hover
     >
@@ -58,12 +58,12 @@ const Dropdown = ({ label, items }) => {
         </svg>
       </button>
       {isOpen && (
-        <ul className="absolute flex-col bg-white shadow-md mt-2 py-2 w-40">
+        <ul className="absolute flex-col bg-[var(--color-bg)] shadow-md mt-2 py-2 w-40">
           {items.map((item) => (
             <li key={item.route}>
               <Link
                 to={`/projects/${item.route}`}
-                className="block px-4 py-2 hover:bg-[var(--color-highlight)]"
+                className="block px-4 py-2 text-[var(--color-fg)] hover:bg-[var(--color-light)]"
               >
                 {item.title}
               </Link>

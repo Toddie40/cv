@@ -12,20 +12,22 @@ const AppContent = () => {
 
   return (
     <Router basename="/cv/"> {/* Set the base path */}
-      <div className="font-sans leading-relaxed pt-16">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          {projects.map((project) => (
-            <Route
-              key={project.route}
-              path={`/projects/${project.route}`}
-              element={<Project project={project} />}
-            />
-          ))}
-        </Routes>
-        <Footer />
+      <div className="font-sans flex flex-col h-screen overflow-hidden">
+        <Navbar/>
+        <div className="overflow-y-scroll">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
+            {projects.map((project) => (
+              <Route
+                key={project.route}
+                path={`/projects/${project.route}`}
+                element={<Project project={project} />}
+              />
+            ))}
+          </Routes>
+        </div>
+        <Footer/>
       </div>
     </Router>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer className="border-t py-4 text-center text-sm">
+  <footer className="py-4 text-center text-sm">
     <p>
       © 2025 Alexander Todd —{' '}
       <a href="mailto:Alex.todd40@gmail.com" className="hover:text-highlight">

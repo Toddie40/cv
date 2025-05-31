@@ -13,7 +13,7 @@ const Experience = ({ title, date, projects }) => {
     console.log('Matched projects:', matchedProjects); // Debugging: Check the matched projects
   
     return (
-      <div>
+      <div className='experience_subsection my-4 border-2 rounded-sm p-4'>
         <h3>{title}</h3>
         <p className="subtitle text-lg leading-relaxed mb-4">{date}</p>
         {matchedProjects && matchedProjects.length > 0 && (
