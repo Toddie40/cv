@@ -6,12 +6,15 @@
 
   --color-dark: #2f4858;
   --color-med-dark: #86bbd8;
-  --color-med: #336699;
+  --color-med: #5d97d1;
   --color-med-light: #9ee493;
   --color-light: #daf7dc;
   
   --color-bg: #F4F4F4;         /* Background */
   --color-fg: #303030;         /* Foreground */
+
+  --color-red: #f78a8a;
+  --color-light-red: #f7baba;
 }
 
 body {
@@ -58,8 +61,13 @@ h4 {
 }
 
 .pill {
-  @apply inline-block rounded-full border flex items-center justify-center text-center;
+  @apply inline-block rounded-full border flex items-center justify-center text-center text-sm;
   border-color: var(--color-fg);
+  padding: 0.5rem 1rem;
+  line-height: 1.3;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pill-dark {
@@ -84,6 +92,22 @@ h4 {
   background-color: var(--color-light);
 }
 
+.education {
+  background-color: var(--color-red);
+}
+
+.education_subsection {
+  background-color: var(--color-light-red);
+}
+
 .profile {
   border-color: var(--color-bg);
+}
+
+.project {
+  background-color: var(--color-dark);
+}
+
+.button {
+  @apply bg-[var(--color-med-dark)] hover:bg-[var(--color-light)] text-white font-bold py-2 px-4 border-b-4 border-[var(--color-med)] hover:border-[var(--color-med-light)] rounded cursor-pointer
 }
