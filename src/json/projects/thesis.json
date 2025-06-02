@@ -1,0 +1,17 @@
+{
+    "route": "thesis",
+    "title": "Master's Thesis",
+    "one_line_description": "Analysis on the suitability of Finite Element Methods on the analysis of bending soft robotic actuators",
+    "details": [
+      "Denied lab-time by the onset of Covid-19, my Master's Thesis revolved around the applicability of finite element analsys techniques on soft robotics.",
+      "Specifically, on the use of FEA to model elastomeric materials such as silicone when put under significant deformation",
+      "This project focussed on the soft robotics domain. It involved me combing through the scientific literature on soft robotics to find examples of pressure-driven, silicone actuators. I would then create 3-D models of the actuators in Autodesk Inventor and then constrain them and pressurise them using Abaqus. I would then compare the predicted deformation from the finite element analysi with the measured deformations in the scientific papers to ascertain the predictive power of FEA under non-linear conditions.",
+      "Overall the project turned out to be successful, with FEA proving to be a powerful tool in the development of Soft Robotic Actuators, provided that good elastomeric data was accessible to provide a custom stress-strain curve to the software."
+    ],
+    "links": [
+        {
+            "name":"Thesis",
+            "url": "https://drive.google.com/file/d/1-cTnyJbp3SgpQJsLAHR9AhfytEm6kUSi/view?usp=sharing"
+        }
+    ]
+}

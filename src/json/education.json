@@ -1,0 +1,19 @@
+{
+    "University of Edinburgh" : {
+        "Start Date": "September 2016",
+        "End Date" : "May 2021",
+        "Grade" : "2:1",
+        "Course" : "Mechanical Engineering, MEng",
+        "Icon" : "edinburgh.png",
+        "Thesis" : {
+            "title" : "Analysis on the suitability of Finite Element Methods on the analysis of bending soft robotic actuators",
+            "link" : "https://drive.google.com/file/d/1-cTnyJbp3SgpQJsLAHR9AhfytEm6kUSi/view?usp=sharing"
+        },
+        "Subjects" : [
+            "Thermodynamics",
+            "Soft Robotics",
+            "Biomedical Engineering",
+            "Fluid Mechanics"
+        ]
+    }
+}

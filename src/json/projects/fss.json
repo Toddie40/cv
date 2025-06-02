@@ -1,0 +1,27 @@
+{
+    "route": "FSS",
+    "image": "fss.jpg",
+    "title": "Fleet Solid Support Delivery",
+    "one_line_description": "After winning the Fleet Solid Support bid, I was responsible for designing several key ship systems.",
+    "details": [
+      "Following the success of the FSS bid, it was time to deliver the project for real.",
+      "I remained responsible for the same systems as the bid phase, however needed to take the maturity of the design to a much deeper level.",
+      "There was a lot of interdisciplinary integration, especially for key transversal systems such as High Pressure Sea Water.",
+      "One of the key differences at this stage was the customer engagement. I had to demonstrate to the MoD that my systems were robust, to standard and met their bespoke set of needs."
+    ],
+    "responsibilities_preamble" : "For the FSS Delivery I was responsible for the following systems:",
+    "responsibilities": [
+      "High Pressure Sea Water (Ship wide distribution of sea water for fire fighting.",
+      "Chilled Water (Ship wide distribution of chilled water for weapons systems and air conditioning",
+      "Pre-wetting (External ship spray system for Chemical, Biological, Nuclear and Radioactive threats)"
+    ],
+    "skills": [
+      "Cross-Discipline Communication",
+      "Cusomer Engagement",
+      "Engineering Drawings/ P&IDs",
+      "Fluid System Calculations",
+      "Presentations",
+      "System Documentation"
+    ]
+    
+  }
