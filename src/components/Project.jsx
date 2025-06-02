@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Project = ({ project }) => (
-  <div className="w-full bg-cover bg-center"
+  <div className="project w-full bg-cover bg-center"
       style={{ backgroundImage: `url(${import.meta.env.BASE_URL}images/${project.image})` }}
   >
       {/* Semi-transparent overlay */}
@@ -56,6 +56,17 @@ const Project = ({ project }) => (
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      )}
+
+      {project.links && (
+        <div>
+          <h3>External Links:</h3>
+          <div className='p-4'>
+          {project.links.map((link, index) => (
+            <a key={index} href={link.url} className='button'>{link.name}</a>
+          ))}
           </div>
         </div>
       )}
