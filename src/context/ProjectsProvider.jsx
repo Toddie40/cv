@@ -1,7 +1,7 @@
 import React, { createContext, useContext } from 'react';
 
 // Dynamically import all project JSON files
-const projectFiles = import.meta.glob('../pages/projects/*.json', { eager: true });
+const projectFiles = import.meta.glob('../json/projects/*.json', { eager: true });
 
 // Transform the imported files into an array of projects
 const projects = Object.entries(projectFiles).map(([filePath, module]) => {
