@@ -1,0 +1,18 @@
+import Experience from '../components/Experience';
+import experienceData from '../json/experience.json';
+
+
+const Positions = () => {
+    return <section className='experience p-4'>
+    <h2>Experience</h2>
+    {Object.entries(experienceData).map(([key, props]) => (
+      <Experience
+        title={key}
+        date={props.Date}
+        projects={props.Projects}
+      />
+    ))}
+    </section>
+};
+
+export default Positions;
