@@ -1,7 +1,7 @@
 {
     "route": "FSS-bid",
     "title": "Fleet Solid Support Bid",
-    "one_line_description": "Worked on the BMT bid for the fleet solid support programme",
+    "one_line_description": "During my first year at BMT I worked on the Fleet Solid Support Bid working mainly on prewet and high pressure sea water systems.",
     "image": "fss_bid.webp",
     "details": [
       "This was a key project for BMT to win. Following on the the company's experience with vessels such as Tide Class and the Norwegian Logistics Support Vessel.",
@@ -19,6 +19,12 @@
       "Engineering Drawings/ P&IDs",
       "Fluid System Calculations",
       "Cross-Discipline Communication"
+    ],
+    "links" : [
+      {
+        "name": "FSS Bid Awarded to BMT",
+        "url": "https://www.bmt.org/news/2023/mod-contract-for-royal-navy-support-ships-awarded-to-team-resolute/"
+      }
     ]
     
   }

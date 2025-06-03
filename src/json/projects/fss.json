@@ -22,6 +22,19 @@
       "Fluid System Calculations",
       "Presentations",
       "System Documentation"
+    ],
+    "links" : [
+      {
+        "name" : "Link to BMT News Article",
+        "url" : "https://www.bmt.org/news/2024/fss-programme-successfully-completes-its-preliminary-design-review/"
+      },
+      {
+        "name" : "Navantia UK",
+        "url" : "https://navantia.co.uk/"
+      },
+      {
+        "name" : "BMT",
+        "url" : "https://www.bmt.org"
+      }
     ]
-    
   }

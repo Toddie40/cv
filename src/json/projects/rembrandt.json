@@ -23,6 +23,23 @@
       "Text Splitting",
       "Local LLMs",
       "Docker",
-      "git"
+      "git",
+      "Ollama",
+      "AnythingLLM",
+      "Deployment"
+    ],
+    "links" : [
+      {
+        "name" : "BMT Rembrandt",
+        "url": "https://www.bmt.org/innovations/bmt-rembrandt/"
+      },
+      {
+        "name" : "Ollama",
+        "url" : "https://ollama.com/"
+      },
+      {
+        "name" : "AnythingLLM",
+        "url" : "https://anythingllm.com/"
+      }
     ]
   }
