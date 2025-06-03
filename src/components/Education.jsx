@@ -8,11 +8,11 @@ const Education = () => {
         <div className='education_subsection my-4 border-2 rounded-sm p-4'>
             <div className='flex justify-between'>
                 <div id='Text Contents'>
-                    <h3 className='text-left'>{key}</h3>
+                    <p className='text-xl text-left font-bold'>{key}</p>
                     <p className="subtitle text-lg leading-relaxed mb-4">{props['Start Date']} - {props['End Date']}</p>
-                    <p className="font-semibold">{props.Course} | {props.Grade}</p>
-                    
-                    <div className='grid grid-cols-4 gap-4 mt-4'>
+                    <p className="text-md font-semibold">{props.Course} | {props.Grade}</p>
+                    <p className='mt-4 text-sm font-semibold'> Key Courses:</p>
+                    <div className='flex flex-wrap gap-4 mt-4'>
                         {props.Subjects.map((subject) => (
                             <p className='pill'>{subject}</p>
                         ))}
