@@ -33,7 +33,6 @@ const Dropdown = ({ label, items }) => {
 
   return (
     <div
-      className="dropdown_menu"
       ref={dropdownRef}
       onMouseEnter={openDropdown} // Open dropdown on hover
     >
@@ -58,7 +57,7 @@ const Dropdown = ({ label, items }) => {
         </svg>
       </button>
       {isOpen && (
-        <ul className="absolute flex-col bg-[var(--color-bg)] shadow-md mt-2 py-2 w-40">
+        <ul className="absolute flex-col bg-[var(--color-bg)] shadow-md mt-2 py-2 w-40 z-50">
           {items.map((item) => (
             <li key={item.route}>
               <Link
