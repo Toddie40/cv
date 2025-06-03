@@ -2,21 +2,26 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Project = ({ project }) => (
-  <div className="project w-full bg-cover bg-center"
-      style={{ backgroundImage: `url(${import.meta.env.BASE_URL}images/${project.image})` }}
-  >
-      {/* Semi-transparent overlay */}
-  <div className="absolute inset-0 bg-white/80"></div>
-  <div className="relative justify-between max-w-4xl mx-auto px-4">
-    <div className="relative flex flex-col">
+  <div className="project">
+  <div className="justify-between max-w-4xl mx-auto px-4">
+    <div className="flex flex-col">
       <div className='sticky'>
         <Link className="text-right pt-4" to="/">↩&#xFE0E; Back to CV</Link>
       </div>
-      <h1 className="text-3xl font-bold">{project.title}</h1>
+      
+      <h1 className="text-3xl font-bold mt-4 text-center underline">{project.title}</h1>
 
-      <p className="text-lg leading-relaxed py-4">{project.one_line_description}</p>
+      <div className='flex flex-wrap md:flex-nowrap gap-4 mt-4'>
+      <div>  
+        <p className="text-lg leading-relaxed py-4 px-12 italic">{project.one_line_description}</p>
+      </div>
+      {project.image && <div className='max-w-[50%]'>
+        <img className="rounded-sm" src={`${import.meta.env.BASE_URL}images/${project.image}`} />
+      </div>}
+      
+      </div>
       {project.details && Array.isArray(project.details) && (
-        <div>
+        <div className='mt-8'>
         <h2>Description</h2>
         <div className="mt-4">
           {project.details.map((line, index) => (
@@ -48,7 +53,7 @@ const Project = ({ project }) => (
       {project.skills && (
         <div className="mt-4">
           <h2 className="mb-2">Skills Used:</h2>
-          <div className="p-4 grid grid-cols-3 gap-4">
+          <div className="p-4 flex flex-wrap justify-center gap-4">
             {project.skills.map((skill, index) => (
               <div key={index} className="pill">
                 <div>
@@ -62,8 +67,8 @@ const Project = ({ project }) => (
 
       {project.links && (
         <div>
-          <h3>External Links:</h3>
-          <div className='p-4'>
+          <h2>External Links:</h2>
+          <div className='flex flex-wrap text-center justify-center gap-4 p-4'>
           {project.links.map((link, index) => (
             <a key={index} href={link.url} className='button'>{link.name}</a>
           ))}
