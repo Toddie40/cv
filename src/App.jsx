@@ -17,7 +17,7 @@ const AppContent = () => {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/> 
       </head>
-      <div className="page-font flex flex-col h-screen overflow-hidden">
+      <div className="page-font flex flex-col ">
         <Navbar/>
         <div className="overflow-y-scroll">
           <Routes>
