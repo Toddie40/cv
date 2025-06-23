@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import education from '../json/education.json';
 
 
@@ -19,12 +20,12 @@ const Education = () => {
                     </div>
 
                     <div className='mt-8'>
-                        <a 
-                            href={props.Thesis.link}
+                        <Link 
+                            to={props.Thesis.link}
                             className='button'
                         >
                             Thesis!
-                        </a>
+                        </Link>
                     </div>
                 </div>
             <img className="h-32 p-4 text-right" src={`images/${props.Icon}`}/>
