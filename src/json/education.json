@@ -7,7 +7,7 @@
         "Icon" : "edinburgh.png",
         "Thesis" : {
             "title" : "Thesis",
-            "link" : "/cv/projects/thesis"
+            "link" : "/projects/thesis"
         },
         "Subjects" : [
             "Thermodynamics",
