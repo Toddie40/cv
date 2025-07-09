@@ -5,7 +5,8 @@
     "details": [
       "This is a project that I took from a small moon-shot idea into a fully-fledged product that we're beginning to roll out internally.",
       "I developed the machine learning pipeline myself. Starting with a blank jupyter notebook and ending with a fully-containerised API with automatic image logging for continuous retraining and improvement.",
-      "To demo the model and show-off its potential, I built a small web app in ReactJS that allows users to take a photo and ship it to the API to return a classification."
+      "To demo the model and show-off its potential, I built a small web app in ReactJS that allows users to take a photo and send it to the API to return a classification.",
+      "I have since produced a full project scoping outline and secured funding to begin writing a cloud-based API and database solution."
     ],
     "responsibilities_preamble": "For this project, I was responsible for essentially everything since it started as a research project.",
     "responsibilities": [
@@ -21,11 +22,10 @@
       "Python",
       "Jupyter",
       "ReactJS",
-      "Flask",
-      "PostGres",
+      "FastAPI",
+      "PostGreSQL",
       "Azure DevOps + ML Studio",
       "Presentations",
       "Stakeholder Engagement"
     ]
-
   }

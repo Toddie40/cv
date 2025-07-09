@@ -1,8 +1,9 @@
 {
     "AI Specialist" : {
         "Company" : "BMT",
-        "Date": "October 2024 - Present",
+        "Date": "October 2023 - Present",
         "Projects": [
+            "GraphRAG",
             "Rembrandt",
             "Rust"
         ]

@@ -1,0 +1,29 @@
+{
+    "route": "GraphRAG",
+    "title": "GraphRAG Project Information Assistant",
+    "one_line_description": "This is my live project at BMT. I am the technical lead, responsible for implementing a GraphRAG solution to help our consultants leverage untapped past, unstructured data and generate helpful insights for future bidding.",
+    "details": [
+      "Building on what I have built during the VERMEER project, this project has served to massively improve the RAG pipeline.",
+      "It consists of first parsing the existing unstructured data using a custom Azure Function.",
+      "Then taking the parsed data and placing it into context within a Neo4J graph database in the cloud.",
+      "I then have written a custom RAG pipeline in Azure Functions which takes the user query, extracts the relevant information from the graph and returns a useful answer."
+    ],
+    "responsibilities_preamble": "With my previous LLM deployment gaining traction in the business, I was given full autonomy to produce this solution:",
+    "responsibilities": [
+      "Data ingestion pipeline",
+      "Graphbased, HybridRAG Pipeline",
+      "Software Architecture",
+      "Azure Cloud Architecture"
+    ],
+    "skills": [
+      "Python",
+      "ReactJS",
+      "LLMs",
+      "RAG",
+      "Azure Functions",
+      "Azure Container Apps",
+      "Azure Networking",
+      "Docker",
+      "git"
+    ]
+  }
