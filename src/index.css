@@ -31,6 +31,10 @@ body {
   color: var(--color-fg);
 }
 
+p {
+  @apply mb-4
+}
+
 a {
   text-decoration: none;
 }
@@ -41,7 +45,7 @@ a:hover {
 
 header, nav, footer {
   background-color: var(--color-dark);
-  color: var(--color-light);
+  color: var(--color-bg);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
