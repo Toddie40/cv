@@ -125,7 +125,7 @@ const ContactForm = () => {
               value={formData.first_name}
               onChange={handleChange}
               className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-              required
+              
             />
             {errors.first_name && (
               <span className="text-red-500 text-sm block mt-1">
@@ -145,7 +145,7 @@ const ContactForm = () => {
               value={formData.last_name}
               onChange={handleChange}
               className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-              required
+              
             />
             {errors.last_name && (
               <span className="text-red-500 text-sm block mt-1">
@@ -168,7 +168,7 @@ const ContactForm = () => {
               value={formData.email}
               onChange={handleChange}
               className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-              required
+              
             />
             {errors.email && (
               <span className="text-red-500 text-sm block mt-1">
@@ -204,7 +204,7 @@ const ContactForm = () => {
             value={formData.company}
             onChange={handleChange}
             className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-            required
+            
           />
           {errors.company && (
             <span className="text-red-500 text-sm block mt-1">
@@ -225,7 +225,7 @@ const ContactForm = () => {
             onChange={handleChange}
             rows={5}
             className="w-full px-3 py-2 border border-gray-300 rounded resize-y focus:outline-none focus:ring-2 focus:ring-blue-500"
-            required
+            
           />
           {errors.message && (
             <span className="text-red-500 text-sm block mt-1">
