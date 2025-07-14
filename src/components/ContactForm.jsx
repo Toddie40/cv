@@ -111,7 +111,7 @@ const ContactForm = () => {
           <p>Thanks for getting in touch! I'll get back to you as soon as I can.</p>
         </div>
       ): 
-      <form onSubmit={handleSubmit} className="space-y-4">
+      <form onSubmit={handleSubmit} noValidate className="space-y-4">
         {/* First Name and Last Name Row */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
