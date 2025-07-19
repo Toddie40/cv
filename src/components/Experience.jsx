@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useProjects } from '../context/ProjectsProvider';
 
-const Experience = ({ title, date, projects }) => {
+const Experience = ({ title, company, date, projects }) => {
     const globalProjects = useProjects(); // Access the global projects array from context
 
     // Filter the global projects array to match the routes in the experience JSON
@@ -14,7 +14,7 @@ const Experience = ({ title, date, projects }) => {
   
     return (
       <div className='experience_subsection rounded-sm p-4'>
-        <h3>{title}</h3>
+        <h3>{title} @ {company}</h3>
         <p className="subtitle text-lg leading-relaxed mb-4">{date}</p>
         {matchedProjects && matchedProjects.length > 0 && (
           <ul className="pl-4">

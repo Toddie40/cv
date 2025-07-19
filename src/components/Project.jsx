@@ -18,8 +18,8 @@ const Project = ({ project }) => {
         <h1 className="text-3xl font-bold mt-4 text-center underline">{project.title}</h1>
 
         <div className='flex flex-wrap md:flex-nowrap gap-4 mt-4 py-8'>
-        <div className='sm:max-w-[50%]'>  
-          <p className="text-justify sm:text-left text-lg leading-relaxed">{project.one_line_description}</p>
+        <div className={project.image ?'sm:max-w-[50%]' : 'w-auto'}>  
+          <p className={project.image ? "text-justify text-lg leading-relaxed sm:text-left" : "text-justify text-lg leading-relaxed"}>{project.one_line_description}</p>
         </div>
         {project.image && <div className='w-full'>
           <img className="rounded-sm cursor-pointer"

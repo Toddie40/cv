@@ -8,6 +8,7 @@ const Positions = () => {
     {Object.entries(experienceData).map(([key, props]) => (
       <Experience
         title={key}
+        company={props.Company}
         date={props.Date}
         projects={props.Projects}
       />

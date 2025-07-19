@@ -16,7 +16,7 @@ const AboutMe = () => {
           </div>
           <div className='sm:w-2/3'>
             <p>
-              Hi, I'm Alex. I'm a Machine Learning and AI Specialist working at BMT. 
+              Hi, I'm Alex. I'm a Machine Learning and AI Specialist based in Bath, UK. 
             </p> 
             <p>
               My specialisms lie in Cloud Deployment, Computer Vision and Generative AI. If you're having difficulty actually deploying your AI models, I can help. 
