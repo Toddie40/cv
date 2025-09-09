@@ -44,7 +44,7 @@ a:hover {
 }
 
 header, nav, footer {
-  background-color: var(--color-dark);
+  background-color: var(--color-med);
   color: var(--color-bg);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -83,6 +83,7 @@ h4 {
 }
 
 .about_me {
+  box-shadow: 10px 10px 0px 2.5px #303030;
   background-color: var(--color-med);
   color: var(--color-fg);
 }
@@ -92,6 +93,7 @@ h4 {
 }
 
 .experience {
+    box-shadow: 10px 10px 0px 2.5px #303030;
   background-color: var(--color-med-light);
   color: var(--color-fg);
 }
@@ -101,6 +103,7 @@ h4 {
 }
 
 .education {
+    box-shadow: 10px 10px 0px 2.5px #303030;
   background-color: var(--color-red);
 }
 
