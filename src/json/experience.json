@@ -10,16 +10,17 @@
     },
     "Marine Engineer" : {
         "Company" : "BMT",
-        "Date": "October 2023 - October 2024",
+        "Date": "October 2021 - October 2024",
         "Projects": [
             "FSS"
         ]
     },
-    "Graduate Marine Engineer": {
-        "Company" : "BMT",
-        "Date": "October 2021 - October 2023",
-        "Projects": [
-            "FSS-bid"
+    "Hobby Projects" : {
+        "Company" : "Home",
+        "Projects" : [
+            "water-me",
+            "cv"
+
         ]
     }
 }

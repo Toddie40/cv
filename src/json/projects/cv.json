@@ -1,0 +1,18 @@
+{
+    "route": "cv",
+    "title": "Interactive Online CV",
+    "one_line_description": "Where you are right now! This is the result of my online interactive CV. Like a real CV, it is a perpetual work in progress!",
+    "details": [
+        "This CV page is a static web page that is built from json files so that it can be very quickly editied and added to. I do my best to keep this page as up-to-date as I can, but please reach out to me using the Contact page if you want to get in touch."
+    ],
+    "links": [
+        {
+            "name":"Github Page",
+            "url" : "https://github.com/toddie40/cv"
+        },
+        {
+            "name" : "ViteJS",
+            "url" : "https://vite.dev"
+        }
+    ]
+  }
