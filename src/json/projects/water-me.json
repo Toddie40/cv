@@ -1,0 +1,31 @@
+{
+    "route": "water-me",
+    "title": "Raspberry Pi Automatic Plant Waterer",
+    "one_line_description": "This is a hobby project of mine that I took up to improve my software engineering skills across the full stack. It is a fully containerised system for monitoring and watering house plants with a raspberry pi.",
+    "details": [
+      "Water.me is a fully containerised plant watering and monitoring system designed for deployment on a raspberry pi",
+      "The system consists of a NextJS frontend, a FastAPI backend, a PostgreSQL database, and a python daemon that monitors the plant statuses",
+      "The hardware for the project is a Rapsberry Pi 3B with"
+    ],
+    "responsibilities_preamble": "This project is a personal hobby project so I am responsible for the entirety of the design and implmentation",
+    "responsibilities": [
+      "Software Architecture",
+      "Hardware selection",
+      "Electronics assembly",
+      "3D printed housing"
+    ],
+    "skills": [
+      "NextJS",
+      "FastAPI",
+      "PostgreSQL",
+      "Python",
+      "Docker",
+      "Electronics"
+    ],
+    "links" : [
+      {
+        "name" : "Water.me on GitHub",
+        "url": "https://github.com/Toddie40/water.me"
+      }
+    ]
+  }
